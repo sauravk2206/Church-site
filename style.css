@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+.nav-item{
+    margin: 10px 10px;
+}
+.main-container{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-tint {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.landing{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 60px;
+}
